@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+    <title>Hurtownia wody źródlanej</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            Źródlana woda uśmiechu doda!!!
+        </header>
+        <aside>
+            <div id="blok">
+            <nav>
+                <p>Oferta handlowa:</p>
+                <div id="tabela">
+                    woda Żywiec<a id="tekst1">1,50 zł/1,51</a><br>
+                    woda Muszynianka <a id="tekst2">1,70 zł/1,51</a><br>
+                    woda Cisowianka <a id="tekst3">1,55 zł/1,51</a><br>
+                    
+                </div>
+            </nav>
+            <nav>
+                <p>Formularz zakupów:</p>
+                <form name='formularz'>
+                    <BR>
+                    <label for='typ' style="color: black; font-size: 16px; position: relative; top: -30px;">Wybierz rodzaj wody: </label>
+                    <select id='typ' name='typ' style="position: relative; top: -30px; left: 1px;">
+                    <option value='A'>Żywiec 1,50 zl   </option>
+                    <option value='B'>Muszynianka 1,70 zł    </option>
+                    <option value='C'>Cisowianka 1,55 zl   </option>
+                    </select>
+                    <BR>
+                    
+                    <label for='ilosc' style="color: black; font-size: 16px; position: relative; top: -20px;">Ile butelek? </label>
+                    <input type='number' id='ilosc' name='ilosc' style="position: relative; top: -20px;">
+                    <BR>
+                    <input type='button' value='Koszt' onclick="oblicz()" style="position: relative; top: -20px;     background-color: #3399ff;
+                    height: 40px;
+                    width: 110px;
+                    border-radius: 10px;
+                    font-weight: bold;
+                    color: black;
+                    padding-top: 0px;
+                    font-size: 15px;
+                    margin-left: -120px;
+                    margin-top: 5px;
+                    cursor: pointer;">
+                    </form>
+                    <BR>
+                    
+                    <a style="color: black; font-size: 20px; position: relative; top: -45px;">Wynik:</a>
+                    <p id='wynik' style="color: black; position: relative; top: -35px;"></p>
+                    
+            </nav>
+            </div>
+            <div id="blokpod">
+                
+            </div>
+        </aside>
+        <article>
+            <center><img src="https://rewallution.pl/motives/63/63529854_s.jpg" width="500px" height="450px"></center>
+        </article>
+        <footer>
+            <p>„Jakie to lekkie w kropli deszczu"</p>
+            „Wisława Szymborska"
+        </footer>
+        <script type="text/javascript" src="jvs.js"></script>
+    </div>
+</body>
+</html>

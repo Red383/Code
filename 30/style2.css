@@ -1,0 +1,94 @@
+body {
+    background-image: url('https://www.riverjournal.it/images/cover/home.jpg');
+}
+#content {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+header {
+    font-size: 40px;
+    background-color: #f9f9f9;
+    height: 10%;
+    margin-top: 2%;
+    text-align: center;
+    letter-spacing: 5px;
+    border: 4px groove #3366cc;
+}
+aside {
+    background-color: #4d58e7;
+    width: 50%;
+    height: 500px;
+    padding-top: 2%;
+    display: inline-block;
+    
+}
+#blok {
+    margin: auto;
+    height: 310px;
+    width: 280px;
+    background-color: #99CCFF;
+    border-radius: 10px;
+}
+nav {
+    color:#990000;
+    text-align: center;
+    font-size: 22px;
+    
+}
+#tekst1 {
+    position: relative;
+    left: 103px;
+}
+#tekst2 {
+    position: relative;
+    left: 64px;
+}
+#tekst3 {
+    position: relative;
+    left: 74px;
+}
+#tabela {
+    width: 100%;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding-left: 10px;
+}
+select {
+    width: 100%;
+    padding: 1px 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 120px;
+    height: 22px;
+    position:relative;
+    left: 40px;
+    top: -40px;    
+}
+
+
+
+#blokpod {
+    margin: auto;
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+article {
+    background-color: #3399CC;
+    width: 50%;
+    height: 500px;
+    padding-top: 2%; 
+    float: right;
+    display: inline-block;
+   
+}
+footer {
+    background-color: #cfd8dc;
+    height: 9%;
+    text-align: right;
+}
